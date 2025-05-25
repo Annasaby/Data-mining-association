@@ -4,7 +4,7 @@ from tkinter import ttk
 import pandas as pd
 
 # Load rules dari file CSV
-rules = pd.read_csv('D:\\VSCode\\Data Mining\\UAS\\rules.csv')
+rules = pd.read_csv('D:\\VSCode\\Data Mining\\UAS\\rules2.csv')
 
 def cari_lab(jurusan, hari, rules_df):
     input_user = f"{jurusan} - {hari}"
